@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Ernesto <span>Bigliano</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active" data-lang="es">Inicio</a>
+            <a href="#education" data-lang="es">Educación</a>
+            <a href="#service" data-lang="es">Servicios</a>
+            <a href="#testimonials" data-lang="es">Testimonios</a>
+            <a href="#contact" data-lang="es">Contacto</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 data-lang="es">¡Hola! soy <span>Ernesto</span></h1>
+            <h3 class="text-animation" data-lang="es">Soy un <span></span></h3>
+            <p data-lang="es">"Me especializo en diseño web, combinando creatividad y funcionalidad para crear
+                interfaces que resulten tanto atractivas como intuitivas. Mi enfoque está en desarrollar soluciones
+                digitales que no solo se vean bien, sino que también ofrezcan una experiencia de usuario óptima.
+                Acompaño a las empresas desde la idea inicial hasta el producto final, ayudándolas a destacarse en el
+                competitivo entorno digital."</p>
+
+            <h1 data-lang="en" style="display:none;">Hello! I am <span>Ernesto</span></h1>
+            <h3 class="text-animation" data-lang="en" style="display:none;">I am a <span></span></h3>
+            <p data-lang="en" style="display:none;">"I specialize in web design, combining creativity and functionality
+                to create interfaces that are both attractive and intuitive. My focus is on developing digital solutions
+                that not only look good but also provide an optimal user experience. I accompany businesses from the
+                initial idea to the final product, helping them stand out in the competitive digital landscape."</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn" data-lang="es">Contratar</a>
+                <a href="#contact" class="btn" data-lang="es">Contacto</a>
+                <a href="#" class="btn" data-lang="en" style="display:none;">Hire</a>
+                <a href="#contact" class="btn" data-lang="en" style="display:none;">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="/src/img/img-perfil.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ Education ------------------------------------------------------------ -->
+
+    <section class="education" id="education">
+        <h2 class="heading" data-lang="es">Educación</h2>
+        <div class="timeline-items">
+            <!-- Primer estudio -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3 data-lang="es">Inicio en el diseño web</h3>
+                    <p data-lang="es">Comencé a explorar el mundo del diseño web y a aprender los fundamentos de HTML, CSS y JavaScript. Este primer paso fue clave para entender cómo funcionan las interfaces de usuario y la estructura de las páginas web.</p>
+                    <h3 data-lang="en" style="display:none;">Introduction to Web Design</h3>
+                    <p data-lang="en" style="display:none;">I began exploring the world of web design and learning the fundamentals of HTML, CSS, and JavaScript. This initial step was essential to understand how user interfaces work and the structure of web pages.</p>
+                </div>
+            </div>
+    
+            <!-- Segundo estudio -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3 data-lang="es">Profundización en JavaScript</h3>
+                    <p data-lang="es">A medida que mis conocimientos crecían, comencé a especializarme en JavaScript, creando interactividad y funcionalidades avanzadas en mis proyectos, con el objetivo de mejorar la experiencia de usuario.</p>
+                    <h3 data-lang="en" style="display:none;">JavaScript Specialization</h3>
+                    <p data-lang="en" style="display:none;">As my knowledge grew, I started specializing in JavaScript, adding interactivity and advanced functionality to my projects to enhance user experience.</p>
+                </div>
+            </div>
+    
+            <!-- Tercer estudio -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3 data-lang="es">Maestría en Desarrollo Frontend</h3>
+                    <p data-lang="es">En este año, completé una serie de cursos avanzados en frameworks modernos como React y Vue, y perfeccioné mis habilidades en el diseño de interfaces optimizadas para dispositivos móviles.</p>
+                    <h3 data-lang="en" style="display:none;">Mastering Frontend Development</h3>
+                    <p data-lang="en" style="display:none;">This year, I completed a series of advanced courses on modern frameworks like React and Vue, and honed my skills in designing mobile-optimized interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ------------------------------------- Servicios ------------------------------------------- -->
+
+    <section class="services" id="service">
+        <h2 class="heading" data-lang="es">Servicios</h2>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4 data-lang="es">Diseñador Frontend</h4>
+                    <p data-lang="es">Como Diseñador Frontend, me encargo de crear interfaces visualmente atractivas y
+                        funcionales que mejoren la experiencia del usuario. Uso tecnologías como HTML, CSS, y JavaScript
+                        para desarrollar sitios web interactivos, optimizados para dispositivos móviles y adaptables a
+                        cualquier plataforma.</p>
+                    <h4 data-lang="en" style="display:none;">Front Designer</h4>
+                    <p data-lang="en" style="display:none;">As a Frontend Designer, I create visually appealing and
+                        functional interfaces that enhance the user experience. I use technologies like HTML, CSS, and
+                        JavaScript to develop interactive websites optimized for mobile devices and adaptable to any
+                        platform.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4 data-lang="es">Diseñador Web</h4>
+                    <p data-lang="es">Como Diseñador Web, diseño y desarrollo sitios web desde cero, garantizando que
+                        sean estéticamente agradables, intuitivos y fáciles de navegar. Combino creatividad y usabilidad
+                        para crear espacios digitales que cumplan con los objetivos del cliente y las expectativas de
+                        los usuarios.</p>
+                    <h4 data-lang="en" style="display:none;">Web Designer</h4>
+                    <p data-lang="en" style="display:none;">As a Web Designer, I design and develop websites from
+                        scratch, ensuring they are aesthetically pleasing, intuitive, and easy to navigate. I combine
+                        creativity and usability to create digital spaces that meet the client's goals and user
+                        expectations.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4 data-lang="es">Diseñador Freelance</h4>
+                    <p data-lang="es">Ofrezco servicios de diseño web freelance personalizados para cada proyecto.
+                        Trabajo de manera flexible con clientes para entender sus necesidades y traducir sus ideas en
+                        proyectos únicos, optimizados para sus marcas y audiencias específicas.</p>
+                    <h4 data-lang="en" style="display:none;">Freelancer Designer</h4>
+                    <p data-lang="en" style="display:none;">I offer personalized freelance web design services for each
+                        project. I work flexibly with clients to understand their needs and translate their ideas into
+                        unique projects optimized for their brands and specific audiences.</p>
+                </div>
+            </div>
+
+            <div class="service-box ">
+                <div class="service-info">
+                    <h4 class="layout" data-lang="es">Diseñador de Maquetación</h4>
+                    <p data-lang="es">Como Diseñador de Maquetación, organizo y estructuro el contenido de manera clara
+                        y
+                        coherente, maximizando la efectividad visual de cada página. Aseguro que los elementos estén
+                        correctamente distribuidos para guiar la atención del usuario y crear una experiencia de
+                        navegación
+                        fluida y atractiva.</p>
+                    <h4 class="layout" data-lang="en" style="display:none;">Layout Designer</h4>
+                    <p data-lang="en" style="display:none;">As a Layout Designer, I organize and structure content
+                        clearly
+                        and coherently, maximizing the visual effectiveness of each page. I ensure that elements are
+                        properly distributed to guide the user's attention and create a smooth and engaging navigation
+                        experience.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!----------------------------------------------------- Testimonials -------------------------------------------------->
+
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-box">
+            <h2 class="heading">Testimonios</h2>
+
+            <div class="wrapper">
+
+
+                <div class="testimonial-item">
+                    <img src="src/img/testimonials.img/Florencia-Gomez-Garcia-300x300px 1.jpg" alt="">
+                    <h2>Florencia Gómez</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+
+                    </div>
+                    <p>Gracias al trabajo de Ernesto, ahora tengo una página web que refleja exactamente lo que quería. Fue profesional en todo momento y logró captar lo que buscaba de una forma increíble."
+                    </p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="src/img/testimonials.img/300px-X-300px-2.jpg" alt="">
+                    <h2>Javier López</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+
+                    </div>
+                    <p>Ernesto entendió de inmediato lo que necesitaba. Convirtió mis ideas en una página web moderna y fácil de usar. Sin duda, superó mis expectativas."                     </p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="src/img/testimonials.img/300px-X-300px-3.jpg" alt="">
+                    <h2>Diego Martínez</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                    </div>
+                    <p>Fue un placer trabajar con Ernesto. Captó la esencia de mi negocio y la reflejó perfectamente en el diseño del sitio. Estoy muy satisfecho con el resultado final." 
+                    </p>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="src/img/testimonials.img/1722327124466.4.jpeg" alt="">
+                    <h2>Mario García</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                    </div>
+                    <p>Agradezco el profesionalismo de Ernesto. Fue claro en cada paso del proyecto y logró un diseño que se ajusta perfectamente a mis necesidades."
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ----------------------------------------------------------------------- Contact ------------------------------------------------------------- -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+
+            <a href="#"><i class='bx bxl-discord-alt'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Sevivios</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+            <li>
+                <a href="#">Testimonios</a>
+            </li>
+
+        </ul>
+        <p class="copyright">
+            Ernesto Bigliano | Todos los derechos Reservados.
+        </p>
+
+    </footer>
+
+    <script src="funcionability.js"></script>
+
+</body>
+
+</html>
